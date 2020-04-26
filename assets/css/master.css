@@ -1,0 +1,68 @@
+::-moz-selection {
+  background: #1dd1a1;
+}
+
+::selection {
+  background: #1dd1a1;
+}
+
+body{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 175%;
+}
+
+h1{
+  font-family: bely-display, sans-serif;
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+h2{
+  font-family: bely-display, sans-serif;
+  font-size: 50px;
+}
+
+h3{
+  font-family: bely-display, sans-serif;
+  font-size: 40px;
+  top: 20px;
+  left: 40px;
+}
+
+h4{
+  font-family: bely-display, sans-serif;
+  font-size: 30px;
+  top: 20px;
+  left: 40px;
+}
+
+.small{
+  line-height: 150%;
+}
+
+.projects{
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.btn-outline-success{
+  color: #1dd1a1;
+  border: 1px solid #1dd1a1;
+}
+
+.btn-outline-success:hover, .btn-outline-success:active{
+  color: #fff;
+  border: 1px solid #1dd1a1;
+  background-color: #1dd1a1;
+}
+
+.resume-link{
+  border-bottom: 2px dashed #1dd1a1;
+  font-weight: 600;
+}
+
+.footer-link{
+  font-size: 30px;
+}

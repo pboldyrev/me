@@ -59,10 +59,13 @@ h4{
 }
 
 .resume-link{
-  border-bottom: 2px dashed #1dd1a1;
   font-weight: 600;
 }
 
 .footer-link{
   font-size: 30px;
+}
+
+.underlined-dash{
+  border-bottom: 2px dashed #1dd1a1;
 }

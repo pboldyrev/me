@@ -99,3 +99,7 @@ a:hover{
   border: none;
   color: #1dd1a1;
 }
+
+.text-muted{
+  color: #1dd1a1 !important;
+}

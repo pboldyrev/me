@@ -8,12 +8,15 @@
 
 body{
   font-family: 'Montserrat';
+  background-color: #222831;
+  color: #efecec;
   font-weight: 500;
   font-size: 19px;
   line-height: 175%;
 }
 
 h1{
+  color: inherit;
   font-family: bely-display, sans-serif;
   font-size: 60px;
   letter-spacing: 3px;
@@ -38,6 +41,16 @@ h4{
   left: 40px;
 }
 
+a{
+  color: #efecec;
+}
+
+a:hover{
+  color: inherit;
+  border-bottom: 2px solid #1dd1a1;
+  transition: 0.3s;
+}
+
 .small{
   line-height: 150%;
 }
@@ -58,14 +71,31 @@ h4{
   background-color: #1dd1a1;
 }
 
+.btn-outline-secondary{
+  color: #c2c2c2;
+  border: 1px solid #c2c2c2;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:active{
+  color: #fff;
+  border: 1px solid #c2c2c2;
+  background-color: #c2c2c2;
+}
+
 .resume-link{
   font-weight: 600;
 }
 
 .footer-link{
   font-size: 30px;
+  transition: 0.3s;
 }
 
 .underlined-dash{
   border-bottom: 2px dashed #1dd1a1;
+}
+
+.no-hover-underline:hover{
+  border: none;
+  color: #1dd1a1;
 }

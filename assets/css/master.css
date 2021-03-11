@@ -6,6 +6,18 @@
   background: #1dd1a1;
 }
 
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+  background: #090A0E;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1dd1a1;
+  border-radius: 10px;
+}
+
 body{
   font-family: 'Montserrat';
   background-color: #191c24;
